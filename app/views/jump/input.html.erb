@@ -1,6 +1,6 @@
 <h1>クッションページ生成</h1>
 <p>クッションを使いたいURL:</p>
-<%= form_tag({:action => "output"}, {:method => "get"}) do %>
+<%= form_tag({:action => "update"}, {:method => "get"}) do %>
   <%= text_field_tag(:url) %>
   <%= submit_tag("クッションページ生成") %>
 <% end %>
